@@ -1,0 +1,31 @@
+For the calculation of Gear Ratio, the Vehicle is considered to be a Front Wheel Drive, with no propeller shaft. The RPM indicated on speedo is considered as Crankshaft RPM.
+
+Tire Size considered = R14" - 165 / 80
+
+side wall height = .80 * 165 = 132 mm
+
+Rim diameter in mm = 355.6 mm
+
+Total Tire diameter including side wall height = 487.6 mm
+
+Speed (m/min) = wheel RPM * pi * wheel dia (meter)
+
+wheel RPM = (3.14159 * .4876)/(speed *100 / 60)
+
+Prop Shaft RPM = Wheel RPM * Final Drive (= 4.3288)
+
+Gear Ratio = Engine RPM / Prop Shaft RPM
+
+Gear Ratio is taken from the 'Props RPM.csv' file.
+
+Average is taken as Gear Ratio (excluding some values due to noise, especially for first gear)
+
+5th Gear = 0.517 : 1
+
+4th Gear = 0.684 : 1
+
+3rd Gear = 0.959 : 1
+
+2nd Gear = 1.496 : 1
+
+1st Gear = 3.2 : 1
