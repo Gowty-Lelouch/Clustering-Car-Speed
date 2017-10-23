@@ -51,4 +51,4 @@ Plotted, the graph, and manually compared it with input, and gave the appropriat
 
 After that, used the Excel formulas, to compute the Gear Ratio.
 
-For answers regarding the questions, please read, answers.md file
+For answers regarding the questions, please read, "Python Scripts/answers.md" file
