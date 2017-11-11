@@ -50,5 +50,3 @@ Finally chose, the paramters such that there won't be too many clusters and also
 Plotted, the graph, and manually compared it with input, and gave the appropriate gear for each cluster Groups.
 
 After that, used the Excel formulas, to compute the Gear Ratio.
-
-For answers regarding the questions, please read, answers.md file
