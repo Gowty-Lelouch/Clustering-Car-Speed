@@ -2,7 +2,7 @@
 
 Every day a lot of people drive cars, especially in countries like India, cars with _manual transmission_ are quite abundant. Not everyone, knows the knack of when to change the _Gear_ to get good **fuel Economy**. But, by changing _gears at correct RPMs_ we can increase the _fuel economy_.
 
-The purpose of this code, is to _**Cluster**_ the _Speed and RPM_ data of a car and to _label_ them with _respective gears_ using _Unsupervised Learning_. The data is taken from ODB port of a car.
+The purpose of this code, is to _**Cluster**_ the _**Speed and RPM**_ data of a car and to _label_ them with _**respective gears**_ using _Unsupervised Learning_. The data is taken from ODB port of a car.
 
 ##Model Selection
 
@@ -14,9 +14,9 @@ As this is a labelling problem, I resorted to using Clustering alogrithms.
 
 ###Selecting the Algorithm (TL;DR : Density based Algorithm Chosen)
 
-I had K-Means, Agglomerative, DBSCAN, HDBSCAN and CURE algorithms in mind. First, applied K - Means, using MATLAB, but since it was a **Centroid** based algorithm, the algorithm chose **Circular blobs** and didn't provided _intended results_. The next, I tried with Agglomerative clustering algorithm, it again provided a similar result as K-Means. Also, Matlab was taking too much time, even to compute this (All thanks to my laptop's specs). 
+I had K-Means, Mean - Shift, BIRCH, Hirearchial (Agglomerative), DBSCAN, HDBSCAN and CURE algorithms in mind. First, applied K - Means, using MATLAB, but since it was a **Centroid** based algorithm, the algorithm chose **Circular blobs** and didn't provided _intended results_. The next, I tried with Agglomerative clustering algorithm, it again provided a similar result as K-Means. Also, Matlab was taking too much time, even to compute this (All thanks to my laptop's specs). 
 
-After, that I looked for _Density based_ clustering algorithms, which won't tend to choose only circular blobs. DBSCAN looked like it would do the trick. But unfortunately, MATLAB threw **out of Memory** error. So, I resorted to using Python.
+After, that I looked for _Density based_ clustering algorithms, which won't tend to choose only **globular clusters**. DBSCAN looked like it would do the trick. But unfortunately, MATLAB threw **out of Memory** error. So, I resorted to using Python.
 
 
 ##Performance
